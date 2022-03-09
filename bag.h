@@ -7,6 +7,9 @@
  * This is the ONE h file you CAN edit.
  */
 
+#ifndef BAG_H
+#define BAG_H
+
 #include <iostream>
 #include <string>
 #include "my_exception.h"
@@ -21,4 +24,19 @@ void get_identity(string &my_id);
 
 
 // implement your abstract class here:
+template <typename T>
+class Bag
+{
+  private:
 
+  public:
+    virtual bool insert(const T &myItem) = 0;
+
+    virtual bool remove(const T &myItem) = 0;
+
+    virtual int size() const = 0;
+
+    string parent_variable = "this is from the abstract class";
+};
+
+#endif

@@ -36,12 +36,12 @@ int main()
     pBag = &my_dynamic_bag;
     pBag->insert(5);
 
-    my_dynamic_bag.print_bag();
+    //my_dynamic_bag.print_bag();
 
     // Do extensive testing of your additions here:
 
     // This should crash the program:
-    throw MyException();
+    //throw MyException();
 
     return 0;
 }

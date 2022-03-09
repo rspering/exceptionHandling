@@ -5,6 +5,10 @@
 
 
 // Define your name function here:
+void get_identity(string &my_id)
+{
+  my_id = "rjstrd";
+}
 
 
 // Fix this function to throw a MyException when full

@@ -115,7 +115,15 @@ bool DynamicBag<T>::remove(const T &target)
 template <typename T>
 int DynamicBag<T>::occurrences(const T &target) const
 {
-   // Implement this function here 
+  int occ = 0;
+  for (int i = 0; i < this->used; i++)
+  {
+    if (this->data[i] == target)
+      {
+        occ++;
+      }
+  }
+  return occ;
 }
 
 
