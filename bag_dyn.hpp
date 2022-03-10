@@ -37,7 +37,7 @@ void DynamicBag<T>::operator=(const DynamicBag &other_bag)
 {
     if(capacity != other_bag.capacity)
     {
-        
+        delete [] data;
         //allocate new memory.
         data = new T[other_bag.capacity]; //new_handler gets called in case //of failure of memory allocation.
         capacity = other_bag.capacity;
