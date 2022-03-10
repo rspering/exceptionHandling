@@ -7,5 +7,5 @@
 
 const char * MyException::what() const noexcept
 {
-  return "Custom error has occured";
+  return "Custom error has occurred";
 }
