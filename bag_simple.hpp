@@ -16,8 +16,11 @@ template <typename T>
 bool SimpleBag<T>::insert(const T &myItem)
 {
     if(size() >= CAPACITY)
-        return false;
-
+    {
+      throw MyException();
+      return false;
+    }
+        
     data[used] = myItem;
     used++;
 
