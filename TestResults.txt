@@ -1,5 +1,5 @@
 Username (not for points): rjstrd
-insert_throw_test.cpp: fail
+insert_throw_test.cpp: pass
 my_exception_test.cpp: pass
 occurences_test.cpp: pass
 parent_variable_test.cpp: pass
