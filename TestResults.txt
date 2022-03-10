@@ -4,4 +4,4 @@ my_exception_test.cpp: pass
 occurences_test.cpp: pass
 parent_variable_test.cpp: pass
 polymorphic_function_calls_test.cpp: pass
-Memory Leaks (0 is perfect): 160
+Memory Leaks (0 is perfect): 0
